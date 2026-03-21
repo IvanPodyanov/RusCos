@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'SpaceHead';
-    src: url('fonts/PlayfairDisplay-Italic.ttf');
+    src: url('fonts/PlayfairDisplay-Italic.woff2');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'SpaceBody';
-    src: url('fonts/IBMPlexMono-Regular.ttf');
+    src: url('fonts/IBMPlexMono-Regular.woff2');
     font-display: swap;
 }
 
@@ -32,19 +32,19 @@ header {
 }
 
 .index-header {
-    background-image: url('img/RusCos.png'), url('img/ussr.png'), url('img/russia.png');
+    background-image: url('img/RusCos.webp'), url('img/ussr.webp'), url('img/russia.webp');
     background-size: 5em, 3.3em, 3.3em;
     background-position: 2% 50%, 91% 50%, 97% 50%;
 }
 
 .ussr-header {
-    background-image: url('img/RusCos.png'), url('img/ussr.png');
+    background-image: url('img/RusCos.webp'), url('img/ussr.webp');
     background-size: 6%, 5%;
     background-position: 2% 50%, 94% 50%;
 }
 
 .russia-header {
-    background-image: url('img/RusCos.png'), url('img/russia.png');
+    background-image: url('img/RusCos.webp'), url('img/russia.webp');
     background-size: 6%, 5%;
     background-position: 2% 50%, 94% 50%;
 }
@@ -63,8 +63,7 @@ h1 {
     letter-spacing: 1px;
 }
 
-h2,
-h3 {
+h2 {
     font-family: 'SpaceHead';
 }
 
@@ -106,11 +105,16 @@ nav ul {
     margin: 0;
 }
 
+nav li {
+    font-family: 'SpaceHead';
+    font-size: 1.17em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
 nav li:not(:last-child) {
     border-bottom: 2px solid rgba(48, 213, 200, 0.4);
-    padding: 10px;
-    padding-top: 0px;
-    padding-bottom: 15px;
+    padding: 0 10px 15px 10px;
 }
 
 a {
@@ -223,7 +227,7 @@ ol span {
 table {
     box-shadow: 0px 0px 30px rgba(10, 0, 208, 0.5) inset;
     border-collapse: collapse;
-    border-spacing:0px;
+    border-spacing: 0px;
     width: 100%;
 }
 
