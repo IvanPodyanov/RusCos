@@ -1,6 +1,6 @@
 # RusCos
 
-<img src="img/RusCos.webp" width="120" align="right" style="margin-left: 10px; margin-bottom: 5px;">
+<img src="img/ruscos.webp" width="120" align="right" style="margin-left: 10px; margin-bottom: 5px;">
 
 [Сайт](https://ivanpodyanov.github.io/RusCos/) про историю советской и российской космонавтики. Данный [сайт](https://ivanpodyanov.github.io/RusCos/) даёт не только базовые сведения про космос, но и раскрывает все самые основные моменты истории космонавтики, начиная от первых идей о полёте в космос и заканчивая целями и планами на будущее. Всё это структурировано и разбито по тематическим разделам, а также подкреплено различными цитатами и изображениями.
 

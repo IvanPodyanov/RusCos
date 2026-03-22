@@ -18,7 +18,7 @@ body {
     font-family: 'SpaceBody';
     margin: 0;
     color: white;
-    background-image: url('img/bg.jpg');
+    background-image: url('img/bg.webp');
     opacity: 1;
     background-size: 100%;
     background-attachment: fixed;
@@ -32,19 +32,19 @@ header {
 }
 
 .index-header {
-    background-image: url('img/RusCos.webp'), url('img/ussr.webp'), url('img/russia.webp');
+    background-image: url('img/ruscos.webp'), url('img/ussr.webp'), url('img/russia.webp');
     background-size: 5em, 3.3em, 3.3em;
     background-position: 25px 50%, calc(100% - 106px) 50%, calc(100% - 28px) 50%;
 }
 
 .ussr-header {
-    background-image: url('img/RusCos.webp'), url('img/ussr.webp');
+    background-image: url('img/ruscos.webp'), url('img/ussr.webp');
     background-size: 5em, 4em;
     background-position: 25px 50%, calc(100% - 80px) 50%;
 }
 
 .russia-header {
-    background-image: url('img/RusCos.webp'), url('img/russia.webp');
+    background-image: url('img/ruscos.webp'), url('img/russia.webp');
     background-size: 5em, 4em;
     background-position: 25px 50%, calc(100% - 80px) 50%;
 }
