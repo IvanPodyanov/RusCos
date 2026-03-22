@@ -27,26 +27,26 @@ body {
 header {
     background-repeat: no-repeat;
     color: rgb(245, 245, 220);
-    padding: 10px;
     background-color: rgba(58, 154, 255, 0.5);
+    padding: 10px 120px;
 }
 
 .index-header {
     background-image: url('img/RusCos.webp'), url('img/ussr.webp'), url('img/russia.webp');
     background-size: 5em, 3.3em, 3.3em;
-    background-position: 2% 50%, 91% 50%, 97% 50%;
+    background-position: 25px 50%, calc(100% - 106px) 50%, calc(100% - 28px) 50%;
 }
 
 .ussr-header {
     background-image: url('img/RusCos.webp'), url('img/ussr.webp');
-    background-size: 6%, 5%;
-    background-position: 2% 50%, 94% 50%;
+    background-size: 5em, 4em;
+    background-position: 25px 50%, calc(100% - 80px) 50%;
 }
 
 .russia-header {
     background-image: url('img/RusCos.webp'), url('img/russia.webp');
-    background-size: 6%, 5%;
-    background-position: 2% 50%, 94% 50%;
+    background-size: 5em, 4em;
+    background-position: 25px 50%, calc(100% - 80px) 50%;
 }
 
 p:not(:last-child) {
